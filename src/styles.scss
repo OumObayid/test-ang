@@ -1,0 +1,41 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html, body {
+  margin: 0; /* Enlevez les marges par défaut */
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow: hidden; /* Empêche le scroll sur toute la page */
+
+}
+
+// scrol
+/* Largeur de la scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Épaisseur */
+}
+
+/* Fond de la scrollbar */
+::-webkit-scrollbar-track {
+  background: #f0e6c0; /* Fond clair */
+  border-radius: 10px;
+}
+
+/* Barre de défilement (le curseur) */
+::-webkit-scrollbar-thumb {
+  background: #b39b18; /* Couleur principale */
+  border-radius: 10px;
+  border: 2px solid #f0e6c0; /* Bord pour un bel effet */
+}
+
+/* Effet au survol */
+::-webkit-scrollbar-thumb:hover {
+  background: #8c7a14; /* Un peu plus foncé au survol */
+}
+
+

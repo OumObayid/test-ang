@@ -1,0 +1,13 @@
+<div class="dialog-container">
+  <div class="dialog-header">
+    <h5 class="dialog-title">Confirmation</h5>
+    <button type="button" class="close-btn" (click)="onCancel()">×</button>
+  </div>
+  <div class="dialog-body">
+    <p>Voulez-vous vraiment continuer ?</p>
+  </div>
+  <div class="dialog-footer">
+    <button class="btn btn-secondary" (click)="onCancel()">Annuler</button>
+    <button class="btn btn-success" (click)="onConfirm()">Confirmer</button>
+  </div>
+</div>

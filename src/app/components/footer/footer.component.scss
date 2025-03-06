@@ -1,0 +1,15 @@
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  position: fixed;      /* Par défaut, il se place à la fin du flux du document */
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  p{
+    margin: 0;
+  }
+}
+
